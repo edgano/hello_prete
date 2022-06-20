@@ -14,14 +14,14 @@
                 "cellranger_10x_dir": {
                     "type": "string",
                     "default": "test"
-                },
-                "merge": {
-                    "type": "object",
-                    "properties": {
-                        "foo": { "type": "string", "default": "bar" }
-                    }
                 }
             }
+        },
+        "merge": {
+            "type": "object",
+            "properties": {
+                "foo": { "type": "string", "default": "bar" }
+             }
         }
     },
     "allOf": [
