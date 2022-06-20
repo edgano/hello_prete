@@ -1,6 +1,8 @@
 #!/usr/bin/env nextflow
 nextflow.enable.dsl=2 
 
+log.info " -- PARAMS -- : ${params}"
+
 process sayHello {
   input: 
     val x
