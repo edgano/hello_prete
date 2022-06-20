@@ -18,6 +18,7 @@
             }
         },
         "merge": {
+            "title": "Merge params",
             "type": "object",
             "properties": {
                 "foo": { "type": "string", "default": "bar" }
