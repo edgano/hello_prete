@@ -15,13 +15,6 @@
                     "type": "string",
                     "default": "test"
                 },
-                "lista":{
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "enum": ["one", "two", "three"]
-                    }
-                },
                 "merge": {
                     "type": "object",
                     "properties": {
@@ -35,8 +28,7 @@
     "allOf": [
         {
             "$ref": "#/definitions/input_output_options",
-            "$ref": "#/definitions/merge",
-            "$ref": "#/definitions/lista"
+            "$ref": "#/definitions/merge"
         }
     ]
 }
