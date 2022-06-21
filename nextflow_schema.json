@@ -16,9 +16,10 @@
                     "default": "test"
                 },
                 "merge": {
+                    "title": "Input/output options",
                     "properties": {
-                        "foo": { "title": "Input","type": "string", "default": "bar" },
-                        "taa": { "type": "string", "default": "bar" }
+                        "foo": { "title": "foo", "type": "string", "default": "bar" },
+                        "taa": { "title": "taa", "type": "string", "default": "mo" }
                     }
                 }
             }
