@@ -28,7 +28,8 @@
     },
     "allOf": [
         {
-            "$ref": "#/definitions/input_output_options"
+            "$ref": "#/definitions/input_output_options",
+            "$ref": "#/definitions/merge"
         }
     ]
 }
