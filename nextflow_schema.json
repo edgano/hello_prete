@@ -16,13 +16,12 @@
                     "default": "test"
                 },
                 "ceee": {
-                    "type": "array",
-                    "items":[
-                        {"type":"string", "description":"description of 22PC"},
-                        {"type":"string", "description":"description of 42GP"},
-                        {"type":"string", "description":"description of 45GP"},
-                        {"type":"string", "description":"description of 45UP"},
-                        {"type":"string", "description":"description of 22GP"}
+                    type:[
+                        {enum:["22PC"], description:"a description for the first enum"},
+                        {enum:["42GP"], description:"a description for the second enum"},
+                        {enum:["45GP"], description:"a description for the third enum"},
+                        {enum:["45UP"], description:"a description for the fourth enum"},
+                        {enum:["22GP"], description:"a description for the fifth enum"}
                     ]
                 }
             }
