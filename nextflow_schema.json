@@ -16,7 +16,6 @@
                     "default": "test"
                 },
                 "merge": {
-                    "title": "Input/merge",
                     "type": "object",
                     "properties": {
                         "foo": { "title": "foo", "type": "string", "default": "bar" },
