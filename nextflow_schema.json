@@ -17,7 +17,7 @@
                 },
                 "merge": {
                     "properties": {
-                        "foo": { "type": "string", "default": "bar" },
+                        "foo": { "title": "Input","type": "string", "default": "bar" },
                         "taa": { "type": "string", "default": "bar" }
                     }
                 }
