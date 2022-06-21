@@ -35,7 +35,8 @@
     "allOf": [
         {
             "$ref": "#/definitions/input_output_options",
-            "$ref": "#/definitions/merge"
+            "$ref": "#/definitions/merge",
+            "$ref": "#/definitions/lista"
         }
     ]
 }
