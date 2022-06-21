@@ -15,13 +15,12 @@
                     "type": "string",
                     "default": "test"
                 },
-                "ceee": {
                     "type": "array",
                     "lista": {
                         "type": "string",
                         "enum": ["one", "two", "three"]
                     }
-                }
+                
             }
         }
     },
