@@ -16,13 +16,14 @@
                     "default": "test"
                 },
                 "ceee": {
-                    "type":[
-                        {"enum":["22PC"], "description":"a description for the first enum"},
-                        {"enum":["42GP"], "description":"a description for the second enum"},
-                        {"enum":["45GP"], "description":"a description for the third enum"},
-                        {"enum":["45UP"], "description":"a description for the fourth enum"},
-                        {"enum":["22GP"], "description":"a description for the fifth enum"}
-                    ]
+                   "type": "string",
+                   "oneOf": [
+                       {"const": "22PC", "description": "description of value"},
+                       {"const": "42GP", "description": "description of value"},
+                       {"const": "45GP", "description": "description of value"},
+                       {"const": "45UP", "description": "description of value"},
+                       {"const": "22GP", "description": "description of value"}
+                   ]
                 }
             }
         }
