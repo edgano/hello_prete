@@ -15,14 +15,16 @@
                     "type": "string",
                     "default": "test"
                 },
-                "type": "array",
-"items":[
-    {"type":"string", "description":"description of 22PC"},
-    {"type":"string", "description":"description of 42GP"},
-    {"type":"string", "description":"description of 45GP"},
-    {"type":"string", "description":"description of 45UP"},
-    {"type":"string", "description":"description of 22GP"}
-]
+                "ceee": {
+                    "type": "array",
+                    "items":[
+                        {"type":"string", "description":"description of 22PC"},
+                        {"type":"string", "description":"description of 42GP"},
+                        {"type":"string", "description":"description of 45GP"},
+                        {"type":"string", "description":"description of 45UP"},
+                        {"type":"string", "description":"description of 22GP"}
+                    ]
+                }
             }
         }
     },
