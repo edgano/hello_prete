@@ -16,14 +16,11 @@
                     "default": "test"
                 },
                 "ceee": {
-                   "type": "string",
-                   "oneOf": [
-                       {"const": "22PC", "description": "description of value"},
-                       {"const": "42GP", "description": "description of value"},
-                       {"const": "45GP", "description": "description of value"},
-                       {"const": "45UP", "description": "description of value"},
-                       {"const": "22GP", "description": "description of value"}
-                   ]
+                    "type": "array",
+                    "lista": {
+                        "type": "string",
+                        "enum": ["one", "two", "three"]
+                    }
                 }
             }
         }
