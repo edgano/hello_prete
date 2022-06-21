@@ -15,18 +15,18 @@
                     "type": "string",
                     "default": "test"
                 },
-                "merge": {
-                    "type": "object",
-                    "properties": {
-                        "foo": { "title": "foo", "type": "string", "default": "bar" },
-                        "taa": { "title": "taa", "type": "string", "default": "mo" }
-                    }
-                },
                 "lista":{
                     "type": "array",
                     "items": {
                         "type": "string",
                         "enum": ["one", "two", "three"]
+                    }
+                },
+                "merge": {
+                    "type": "object",
+                    "properties": {
+                        "foo": { "title": "foo", "type": "string", "default": "bar" },
+                        "taa": { "title": "taa", "type": "string", "default": "mo" }
                     }
                 }
             }
@@ -35,8 +35,7 @@
     "allOf": [
         {
             "$ref": "#/definitions/input_output_options",
-            "$ref": "#/definitions/merge",
-            "$ref": "#/definitions/lista"
+            "$ref": "#/definitions/merge"
         }
     ]
 }
