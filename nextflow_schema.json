@@ -16,7 +16,6 @@
                     "default": "test"
                 },
                 "merge": {
-                    "type": "object",
                     "properties": {
                         "foo": { "type": "string", "default": "bar" },
                         "taa": { "type": "string", "default": "bar" }
