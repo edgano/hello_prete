@@ -21,6 +21,13 @@
                         "foo": { "title": "foo", "type": "string", "default": "bar" },
                         "taa": { "title": "taa", "type": "string", "default": "mo" }
                     }
+                },
+                "lista":{
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["one", "two", "three"]
+                    }
                 }
             }
         }
