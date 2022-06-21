@@ -15,12 +15,10 @@
                     "type": "string",
                     "default": "test"
                 },
-                "merge": {
-                    "type": "object",
-                    "properties": {
-                        "foo": { "title": "foo", "type": "string", "default": "bar" },
-                        "taa": { "title": "taa", "type": "string", "default": "mo" }
-                    }
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "enum": ["one", "two", "three"]
                 }
             }
         }
