@@ -5,28 +5,24 @@
     "description": "",
     "type": "object",
     "definitions": {
-        "input_output_options": {
-            "title": "Input/output options",
+        "Reports": {
+            "title": "Selection of the reports",
             "type": "object",
             "fa_icon": "fas fa-terminal",
-            "description": "Define where the pipeline should find input data and save output data.",
+            "description": "",
             "properties": {
-                "cellranger_10x_dir": {
-                    "type": "string",
-                    "default": "test"
-                },
-                    "type": "array",
-                    "lista": {
-                        "type": "string",
-                        "enum": ["one", "two", "three"]
+                "timeline": {
+                    "type": "object",
+                    "properties": {
+                        "enabled": { "title": "enabled", "type": "boolean", "default": false }
                     }
-                
+                }
             }
         }
     },
     "allOf": [
         {
-            "$ref": "#/definitions/input_output_options"
+            "$ref": "#/definitions/Reports"
         }
     ]
 }
